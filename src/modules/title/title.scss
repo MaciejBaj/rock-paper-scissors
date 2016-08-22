@@ -1,0 +1,28 @@
+@import '../../styles/colors';
+
+.title {
+  font-size: 2rem;
+}
+
+.title__header {
+  font-size: 0.5em;
+  color: $THEME_COLOR_LIGHT_GREY;
+}
+
+.title__info-button {
+  float: right;
+  font-weight: bold;
+  padding: 0.3em 0.8em 0.3em 0.8em;
+  background: $THEME_COLOR_GREY;
+  color: white;
+  border-bottom-style: inset;
+  border-left-color: $THEME_COLOR_GREEN;
+  border-left-width: 0.5em;
+  border-bottom-width: 0.5em;
+  border-bottom-left-radius: 1.5em;
+  border-bottom-color: $THEME_COLOR_GREEN;
+  border-top: none;
+  border-right: none;
+  font-size: 0.5em;
+  cursor: pointer;
+}

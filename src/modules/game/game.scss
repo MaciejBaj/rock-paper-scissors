@@ -1,0 +1,28 @@
+@import '../../styles/colors';
+
+.game {
+  color: $THEME_COLOR_LIGHT_GREY;
+  padding-top: 3rem;
+}
+
+.game__message {
+  font-size: 1.5rem;
+}
+
+.game__arena {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+
+.game__splitter {
+  font-size: 7rem;
+  position: relative;
+  top: -2rem;
+}
+
+.game__weapon--small {
+  cursor: pointer;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+

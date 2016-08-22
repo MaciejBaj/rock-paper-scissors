@@ -1,0 +1,13 @@
+<div class="game">
+  <span class="game__message">{{$ctrl.message}}</span>
+  <div class="game__arena">
+    <img class="game__weapon--big" ng-src="{{$ctrl.userWeaponPath}}"/>
+    <span class="game__splitter">/</span>
+    <img class="game__weapon--big" ng-src="{{$ctrl.computerWeaponPath}}"/>
+  </div>
+  <div class="game__choose-weapon">
+    <img class="game__weapon--small" ng-src="{{$ctrl.rockPath}}" ng-click="$ctrl.startBattle('rock')" />
+    <img class="game__weapon--small" ng-src="{{$ctrl.paperPath}}" ng-click="$ctrl.startBattle('paper')" />
+    <img class="game__weapon--small" ng-src="{{$ctrl.scissorsPath}}" ng-click="$ctrl.startBattle('scissors')" />
+  </div>
+</div>

@@ -1,0 +1,32 @@
+@import '../../styles/colors';
+
+@media all and (max-width: 650px) {
+  .welcome-page__image {
+    padding: 3rem;
+  }
+}
+
+@media all and (min-width: 650px) {
+  .welcome-page__image {
+    padding: 8rem;
+  }
+}
+
+.welcome-page__button-background {
+  background: black;
+}
+
+.welcome-page__button {
+  font-weight: bold;
+  padding: 0.5rem 5rem 0.5rem 5rem;
+  background: #26A69A;
+  margin-left: -2.5rem;
+  color: white;
+  border: none;
+  font-size: 2.5rem;
+  border-bottom-right-radius: 5rem;
+  border-top-left-radius: 5rem;
+  cursor: pointer;
+}
+
+
