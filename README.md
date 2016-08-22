@@ -1,5 +1,6 @@
 # rock paper scissors
-Installation: npm i
-Start: npm start
-Running tests: npm test
+Install: npm install <br />
+Start: npm start <br />
+Build: npm build <br />
+Test: npm test
 
